@@ -9,72 +9,72 @@
 		Plano de Negócios
 	</div>
 	<nav>
-		<ul>
-			<li><button class="nav"><b>SUMÁRIO EXECUTIVO</b></button></li>
-				<ul>
-					<li><button class="nav">Resumo</button></li>
-					<li><button class="nav">Dados dos Sócios</button></li>
-					<li><button class="nav">Missão, Visão e Valores</button></li>
-					<li><button class="nav">Setor do Negócio</button></li>
-					<li><button class="nav">Forma Jurídica</button></li>
-					<li><button class="nav">Enquadramento Tributário</button></li>
-					<li><button class="nav">Capital Social e Contrato</button></li>
-					<li><button class="nav">Fonte de Recursos</button></li>
+		
+			<input type="checkbox" id="check-label-su"><label class="nav-label" for="check-label-su"><b>SUMÁRIO EXECUTIVO</b></label>
+				<ul class="nav">
+					<li><button class="nav-button">Resumo</button></li>
+					<li><button class="nav-button">Dados dos Sócios</button></li>
+					<li><button class="nav-button">Missão, Visão e Valores</button></li>
+					<li><button class="nav-button">Setor do Negócio</button></li>
+					<li><button class="nav-button">Forma Jurídica</button></li>
+					<li><button class="nav-button">Enquadramento Tributário</button></li>
+					<li><button class="nav-button">Capital Social e Contrato</button></li>
+					<li><button class="nav-button">Fonte de Recursos</button></li>
 				</ul>
-			<li><button class="nav"><b>ANÁLISE DE MERCADO</b></button></li>
-				<ul>
-					<li><button class="nav">Perfil de Consumidor</button></li>
-					<li><button class="nav">Diagnóstico da Concorrência</button></li>
-					<li><button class="nav">Dados do Fornecedor</button></li>
+			<input type="checkbox" id="check-label-am"><label class="nav-label" for="check-label-am"><b>ANÁLISE DE MERCADO</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Perfil de Consumidor</button></li>
+					<li><button class="nav-button">Diagnóstico da Concorrência</button></li>
+					<li><button class="nav-button">Dados do Fornecedor</button></li>
 				</ul>
-			<li><button class="nav"><b>PLANO DE MARKETING</b></button></li>
-				<ul>
-					<li><button class="nav">Produtos e Serviços</button></li>
-					<li><button class="nav">Preços</button></li>
-					<li><button class="nav">Promoção e Política de Vendas</button></li>
-					<li><button class="nav">Canais de Comercialização</button></li>
-					<li><button class="nav">Localização do negócio</button></li>
+			<input type="checkbox" id="check-label-pm"><label class="nav-label" for="check-label-pm"><b>PLANO DE MARKETING</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Produtos e Serviços</button></li>
+					<li><button class="nav-button">Preços</button></li>
+					<li><button class="nav-button">Promoção e Política de Vendas</button></li>
+					<li><button class="nav-button">Canais de Comercialização</button></li>
+					<li><button class="nav-button">Localização do negócio</button></li>
 				</ul>
-			<li><button class="nav"><b>PLANO OPERACIONAL</b></button></li>
-				<ul>
-					<li><button class="nav">Estrtura física e Layout</button></li>
-					<li><button class="nav">Capacidade de Produção</button></li>
-					<li><button class="nav">Processo Operacional e Fluxos</button></li>
-					<li><button class="nav">Cargo e Qualificação</button></li>
-					<li><button class="nav">Localização do negócio</button></li>
+			<input type="checkbox" id="check-label-po"><label class="nav-label" for="check-label-po"><b>PLANO OPERACIONAL</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Estrtura física e Layout</button></li>
+					<li><button class="nav-button">Capacidade de Produção</button></li>
+					<li><button class="nav-button">Processo Operacional e Fluxos</button></li>
+					<li><button class="nav-button">Cargo e Qualificação</button></li>
+					<li><button class="nav-button">Localização do negócio</button></li>
 				</ul>
-			<li><button class="nav"><b>PLANO FINANCEIRO</b></button></li>
-				<ul>
-					<li><button class="nav">Equipamentos e Materiais</button></li>
-					<li><button class="nav">Capital de Giro (Estoque)</button></li>
-					<li><button class="nav">Capital de Giro (Caixa)</button></li>
-					<li><button class="nav">Investimentos Operacionais</button></li>
-					<li><button class="nav">Investimento Total</button></li>
-					<li><button class="nav">Faturamento Mensal</button></li>
-					<li><button class="nav">Custo Unitário</button></li>
-					<li><button class="nav">Custo de Comercialização</button></li>
-					<li><button class="nav">Custo de Mercadoria Vendida (MD/MV)</button></li>
-					<li><button class="nav">Custo de Mão de Obra</button></li>
-					<li><button class="nav">Custo de Depreciação Total</button></li>
-					<li><button class="nav">Custo Fixo Mensal</button></li>
-					<li><button class="nav">Demonstrativo de Resuldo do Exercício (DRE)</button></li>
-					<li><button class="nav">Indicadores de Viabilidade</button></li>
+			<input type="checkbox" id="check-label-pf"><label class="nav-label" for="check-label-pf"><b>PLANO FINANCEIRO</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Equipamentos e Materiais</button></li>
+					<li><button class="nav-button">Capital de Giro (Estoque)</button></li>
+					<li><button class="nav-button">Capital de Giro (Caixa)</button></li>
+					<li><button class="nav-button">Investimentos Operacionais</button></li>
+					<li><button class="nav-button">Investimento Total</button></li>
+					<li><button class="nav-button">Faturamento Mensal</button></li>
+					<li><button class="nav-button">Custo Unitário</button></li>
+					<li><button class="nav-button">Custo de Comercialização</button></li>
+					<li><button class="nav-button">Custo de Mercadoria Vendida (MD/MV)</button></li>
+					<li><button class="nav-button">Custo de Mão de Obra</button></li>
+					<li><button class="nav-button">Custo de Depreciação Total</button></li>
+					<li><button class="nav-button">Custo Fixo Mensal</button></li>
+					<li><button class="nav-button">Demonstrativo de Resuldo do Exercício (DRE)</button></li>
+					<li><button class="nav-button">Indicadores de Viabilidade</button></li>
 				</ul>
-			<li><button class="nav"><b>CENÁRIO ORÇAMENTÁRIO</b></buttton></li>
-				<ul>
-					<li><button class="nav">Previsão de Receita e Ações Preventivas e Corretivas</a></li>
+			<input type="checkbox" id="check-label-co"><label class="nav-label" for="check-label-co"><b>CENÁRIO ORÇAMENTÁRIO</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Previsão de Receita e Ações Preventivas e Corretivas</a></li>
 				</ul>
-			<li><button class="nav"><b>DIAGNÓSTICO ESTRATÉGICO</b></button></li>
-				<ul>
-					<li><button class="nav">Análise da Matriz SWOT</button></li>
+			<input type="checkbox" id="check-label-de"><label class="nav-label" for="check-label-de"><b>DIAGNÓSTICO ESTRATÉGICO</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Análise da Matriz SWOT</button></li>
 				</ul>
-			<li><button class="nav"><b>AVALIAÇÃO DO PLANO DE NEGÓCIOS</b></button></li>
-				<ul>
-					<li><button class="nav">Método de Avaliação</button></li>
-					<li><button class="nav">Descrição de Tendências</button></li>
-					<li><button class="nav">Gestão de Risco</button></li>
+			<input type="checkbox" id="check-label-apn"><label class="nav-label" for="check-label-apn"><b>AVALIAÇÃO DO PLANO DE NEGÓCIOS</b></label></li>
+				<ul class="nav">
+					<li><button class="nav-button">Método de Avaliação</button></li>
+					<li><button class="nav-button">Descrição de Tendências</button></li>
+					<li><button class="nav-button">Gestão de Risco</button></li>
 				</ul>
-		</ul>
+		
 	</nav>
 </body>
 </html>
