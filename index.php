@@ -5,80 +5,75 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<div class="top">
+		Plano de Negócios
+	</div>
 	<nav>
 		<ul>
-			<li><a href="">SUMÁRIO EXECUTIVO</a>
+			<li><button class="nav"><b>SUMÁRIO EXECUTIVO</b></button></li>
 				<ul>
-					<li><a href="">Resumo</a></li>
-					<li><a href="">Dados dos Sócios</a></li>
-					<li><a href="">Missão, Visão e Valores</a></li>
-					<li><a href="">Setor do Negócio</a></li>
-					<li><a href="">Forma Jurídica</a></li>
-					<li><a href="">Enquadramento Tributário</a></li>
-					<li><a href="">Capital Social e Contrato</a></li>
-					<li><a href="">Fonte de Recursos</a></li>
+					<li><button class="nav">Resumo</button></li>
+					<li><button class="nav">Dados dos Sócios</button></li>
+					<li><button class="nav">Missão, Visão e Valores</button></li>
+					<li><button class="nav">Setor do Negócio</button></li>
+					<li><button class="nav">Forma Jurídica</button></li>
+					<li><button class="nav">Enquadramento Tributário</button></li>
+					<li><button class="nav">Capital Social e Contrato</button></li>
+					<li><button class="nav">Fonte de Recursos</button></li>
 				</ul>
-			</li>
-			<li><a href="">ANÁLISE DE MERCADO</a>
+			<li><button class="nav"><b>ANÁLISE DE MERCADO</b></button></li>
 				<ul>
-					<li><a href="">Perfil de Consumidor</a></li>
-					<li><a href="">Diagnóstico da Concorrência</a></li>
-					<li><a href="">Dados do Fornecedor</a></li>
+					<li><button class="nav">Perfil de Consumidor</button></li>
+					<li><button class="nav">Diagnóstico da Concorrência</button></li>
+					<li><button class="nav">Dados do Fornecedor</button></li>
 				</ul>
-			</li>
-			<li><a href="">PLANO DE MARKETING</a>
+			<li><button class="nav"><b>PLANO DE MARKETING</b></button></li>
 				<ul>
-					<li><a href="">Produtos e Serviços</a></li>
-					<li><a href="">Preços</a></li>
-					<li><a href="">Promoção e Política de Vendas</a></li>
-					<li><a href="">Canais de Comercialização</a></li>
-					<li><a href="">Localização do negócio</a></li>
+					<li><button class="nav">Produtos e Serviços</button></li>
+					<li><button class="nav">Preços</button></li>
+					<li><button class="nav">Promoção e Política de Vendas</button></li>
+					<li><button class="nav">Canais de Comercialização</button></li>
+					<li><button class="nav">Localização do negócio</button></li>
 				</ul>
-			</li>
-			<li><a href="">PLANO OPERACIONAL</a>
+			<li><button class="nav"><b>PLANO OPERACIONAL</b></button></li>
 				<ul>
-					<li><a href="">Estrtura física e Layout</a></li>
-					<li><a href="">Capacidade de Produção</a></li>
-					<li><a href="">Processo Operacional e Fluxos</a></li>
-					<li><a href="">Cargo e Qualificação</a></li>
-					<li><a href="">Localização do negócio</a></li>
+					<li><button class="nav">Estrtura física e Layout</button></li>
+					<li><button class="nav">Capacidade de Produção</button></li>
+					<li><button class="nav">Processo Operacional e Fluxos</button></li>
+					<li><button class="nav">Cargo e Qualificação</button></li>
+					<li><button class="nav">Localização do negócio</button></li>
 				</ul>
-			</li>
-			<li><a href="">PLANO FINANCEIRO</a>
+			<li><button class="nav"><b>PLANO FINANCEIRO</b></button></li>
 				<ul>
-					<li><a href="">Equipamentos e Materiais</a></li>
-					<li><a href="">Capital de Giro (Estoque)</a></li>
-					<li><a href="">Capital de Giro (Caixa)</a></li>
-					<li><a href="">Investimentos Operacionais</a></li>
-					<li><a href="">Investimento Total</a></li>
-					<li><a href="">Faturamento Mensal</a></li>
-					<li><a href="">Custo Unitário</a></li>
-					<li><a href="">Custo de Comercialização</a></li>
-					<li><a href="">Custo de Mercadoria Vendida (MD/MV)</a></li>
-					<li><a href="">Custo de Mão de Obra</a></li>
-					<li><a href="">Custo de Depreciação Total</a></li>
-					<li><a href="">Custo Fixo Mensal</a></li>
-					<li><a href="">Demonstrativo de Resuldo do Exercício (DRE)</a></li>
-					<li><a href="">Indicadores de Viabilidade</a></li>
+					<li><button class="nav">Equipamentos e Materiais</button></li>
+					<li><button class="nav">Capital de Giro (Estoque)</button></li>
+					<li><button class="nav">Capital de Giro (Caixa)</button></li>
+					<li><button class="nav">Investimentos Operacionais</button></li>
+					<li><button class="nav">Investimento Total</button></li>
+					<li><button class="nav">Faturamento Mensal</button></li>
+					<li><button class="nav">Custo Unitário</button></li>
+					<li><button class="nav">Custo de Comercialização</button></li>
+					<li><button class="nav">Custo de Mercadoria Vendida (MD/MV)</button></li>
+					<li><button class="nav">Custo de Mão de Obra</button></li>
+					<li><button class="nav">Custo de Depreciação Total</button></li>
+					<li><button class="nav">Custo Fixo Mensal</button></li>
+					<li><button class="nav">Demonstrativo de Resuldo do Exercício (DRE)</button></li>
+					<li><button class="nav">Indicadores de Viabilidade</button></li>
 				</ul>
-			</li>
-			<li><a href="">CENÁRIO ORÇAMENTÁRIO</a>
+			<li><button class="nav"><b>CENÁRIO ORÇAMENTÁRIO</b></buttton></li>
 				<ul>
-					<li><a href="">Previsão de Receita e Ações Preventivas e Corretivas</a></li>
+					<li><button class="nav">Previsão de Receita e Ações Preventivas e Corretivas</a></li>
 				</ul>
-			</li>
-			<li><a href="">DIAGNÓSTICO ESTRATÉGICO</a>
+			<li><button class="nav"><b>DIAGNÓSTICO ESTRATÉGICO</b></button></li>
 				<ul>
-					<li><a href="">Análise da Matriz SWOT</a></li>
+					<li><button class="nav">Análise da Matriz SWOT</button></li>
 				</ul>
-			</li>
-			<li><a href="">AVALIAÇÃO DO PLANO DE NEGÓCIOS</a>
+			<li><button class="nav"><b>AVALIAÇÃO DO PLANO DE NEGÓCIOS</b></button></li>
 				<ul>
-					<li><a href="">Método de Avaliação</a></li>
-					<li><a href="">Descrição de Tendências</a></li>
-					<li><a href="">Gestão de Risco</a></li>
+					<li><button class="nav">Método de Avaliação</button></li>
+					<li><button class="nav">Descrição de Tendências</button></li>
+					<li><button class="nav">Gestão de Risco</button></li>
 				</ul>
-			</li>
 		</ul>
 	</nav>
 </body>
